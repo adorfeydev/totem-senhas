@@ -2,22 +2,22 @@
 	"menu": [
 		{
 			"active": true,
-			"icons": ["group"],
+			"link": "servicos/nservicos.html",
 			"name": "NORMAL"
 		},
 		{
 			"active": true,
-			"icons": ["pregnant_woman", "accessible", "hearing"],
+			"link": "servicos/pservicos.html",
 			"name": "PREFERENCIAL"
 		},
 		{
 			"active": true,
-			"icons": ["elderly", "elderly_woman", "add"],
+			"link": "servicos/80servicos.html",
 			"name": "+80 ANOS"
 		},
 		{
 			"active": true,
-			"icons": ["directions_run"],
+			"link": "servicos/expservicos.html",
 			"name": "EXPRESSA"
 		}
 	]

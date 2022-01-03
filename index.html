@@ -10,28 +10,32 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles.css" />
+		<script>
+			function loadFunc() {
+				// Random number
+			}
+		</script>
 	</head>
 
-	<body>
+	<body onload="loadFunc()">
 		<div class="main">
 			<div class="content">
-				<!-- <div class="top">
-					<input type="number" value="2" min="1" max="4" id="item" />
-					<button type="button" onclick="changeLenght();" class="pusher">
-						GO
-					</button>
-				</div> -->
-				<div class="title">
-					<h1><b>Escolha o nivel de prioridade da sua senha</b></h1>
+				<div class="cards_box">
+					<!-- Prioridades -->
+					<ul id="cardslistM" class="cards"></ul>
+					<!-- Serviços -->
+					<ul id="cardslistS" class="cards"></ul>
 				</div>
-				<div class="cards-box">
-					<ul class="cards"></ul>
+				<!-- Footer -->
+				<div class="made_by">
+					<p>Powered by <b>CleverSystems</b></p>
 				</div>
-			</div>
-			<div class="made_by">
-				<h3>Powered by <b>CleverSystems</b></h3>
+				<!-- The Modal -->
+				<div id="alertmodal" style="display: none" class="modalAlert">
+					<!-- Modal content -->
+				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src="index.js"></script>
+		<script type="module" src="createPages.js"></script>
 	</body>
 </html>

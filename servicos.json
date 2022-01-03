@@ -1,0 +1,44 @@
+{
+	"servicos": [
+		{
+			"active": true,
+			"name": "SERVIÇO 1"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 2"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 3"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 4"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 5"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 6"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 7"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 8"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 9"
+		},
+		{
+			"active": true,
+			"name": "SERVIÇO 10"
+		}
+	]
+}
